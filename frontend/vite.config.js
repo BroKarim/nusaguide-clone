@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/',
   build: {
-    outDir: 'frontend/dist', // pastikan ini sesuai dengan konfigurasi vercel.json
+    outDir: 'dist', // pastikan ini sesuai dengan konfigurasi vercel.json
   },
 });
